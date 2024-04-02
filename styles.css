@@ -16,6 +16,8 @@ nav {
   margin-top: 2%;
   font-size: 20px;
   color: azure;
+  font-style:italic;
+
 }
 
 .content h1{
@@ -46,6 +48,8 @@ body{
 
 .services{
   margin-top: 10%;
+  font-style:italic;
+
 }
 
 .services .dat{
@@ -75,6 +79,8 @@ p{
 
 .contacto {
   text-align: center;
+  font-style:italic;
+
 }
 
 .principal {
@@ -86,14 +92,12 @@ p{
   margin-left: 25%
 }
 
-.btn-wsp{
-  position:fixed;
+.btn-wsp {
   width:60px;
   height:60px;
   line-height: 63px;
   bottom:25px;
   right:25px;
-  background:#282928;
   color:#FFF;
   border-radius:50px;
   text-align:center;
@@ -102,15 +106,39 @@ p{
   z-index:100;
   transition: all 300ms ease;
 }
-.btn-wsp:hover{
-  background: #20ba5a;
+
+.btn-inst{
+  width:60px;
+  height:60px;
+  font-style:italic;
+  color:#FFF;
+  border-radius:50%;
+  text-align:center;
+  font-size:35px;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+  z-index:100;
+  transition: all 300ms ease;
 }
+.btn-gmail{
+  width:60px;
+  height:60px;
+  color:#FFF;
+  border-radius:50%;
+  text-align:center;
+  font-size:35px;
+  font-style:italic;
+  box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+  z-index:100;
+  transition: all 300ms ease;
+}
+
 @media only screen and (min-width:320px) and (max-width:768px){
-  .btn-wsp{
+  .btn-wsp {
       width:63px;
       height:63px;
       line-height: 66px;
 }
+
 }
 .nosotros h2 {
   color: rgb(192, 20, 255);
@@ -122,6 +150,8 @@ p{
 
 .nosotros {
  display: flex;
+ font-style:italic;
+
 }
 
 .nosotros h2 {
@@ -139,4 +169,21 @@ p{
   margin-left: 80%;
   border-radius: 20%;
   width: 300px;
+}
+
+.principal .p2 img p {
+  margin-top: 2px;
+}
+
+a{
+  text-decoration: none;
+}
+
+.p2 {
+  font-size: 20px;
+  font-style:italic;
+}
+
+.p1 p{
+  margin-top: 10px;
 }
